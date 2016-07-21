@@ -14,7 +14,6 @@ section {
     padding-bottom:0px; 
     min-height:calc(100% - 1px);
 }
-
 .v-center {
     font-size:45px;
     color: #FF770B;
@@ -26,7 +25,7 @@ section {
 
 a.list-group-item.active,[class*='-info'] {
 	background-color: #168ccc;
-    color:#fff;
+  color:#fff;
 }
   
 
@@ -344,6 +343,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 a:hover{
   text-decoration: none;
+
 }
 /*event*/
 .each-event{
