@@ -290,6 +290,23 @@ a.list-group-item.active,[class*='-info'] {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
+  .container-fluid {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0px;
+  }
+  .padding-top {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .padding-top-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
 }
 
 .bg-space{
@@ -304,7 +321,7 @@ a.list-group-item.active,[class*='-info'] {
 }
 .add-contact{
   font-size: 23px;
-  color: #ff5f00;
+  color: #dd9933;
   font-family: Tungsten Rounded A,Tungsten Rounded B,Avenir Next,Avenir,Helvetica,Arial,sans-serif;
   font-weight: 500;
   line-height: 1.1;
@@ -317,16 +334,38 @@ a.list-group-item.active,[class*='-info'] {
   margin-top: 25px;
 }
 .fa-wifi{
-  font-size: 40px;
-  color:#ff5f00;
+  color: #ff5f00;
 }
 .fa-users{
-  font-size: 40px;
-  color:#ff5f00;
+  color: #ff5f00;
 }
 .fa-coffee{
-  font-size: 40px;
-  color:#ff5f00;
+  color: #ff5f00;
+}
+.fa-key{
+  color: #ff5f00;
+}
+.fa-table {
+  color: #ff5f00;
+}
+.fa-print {
+  color: #ff5f00;
+}
+.fa-p{
+  font-size: medium;
+  color: #F29B34;
+}
+.fa-title {
+  color: #dd9933;
+}
+.btn,.btn-book {
+  border-radius: 0px;
+}
+.form-group {
+  border-radius: 0px;
+}
+.border-form{
+  border-radius: 0px;
 }
 /*modal*/
 .modal-header {

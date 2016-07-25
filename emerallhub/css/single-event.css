@@ -1,6 +1,5 @@
 @import url('http://www.justinaguilar.com/animations/css/animations.css');
 html,body {
-	height:100%;
     background:center no-repeat fixed url('images/bg_iphone.png');
 }
 
@@ -10,9 +9,8 @@ html,body {
 
 
 section {
-	padding-top: 0px;  
+	 padding-top: 0px;  
     padding-bottom:0px; 
-    min-height:calc(100% - 1px);
 }
 
 .v-center {
@@ -229,7 +227,6 @@ a.list-group-item.active,[class*='-info'] {
   font-weight: 300;
   font-size: 20px;
   background-color: rgba(117, 117, 117, 0.34);
-  height: 100%;
 }
 .intro-header .post-heading .meta a {
   color: white;
@@ -248,59 +245,26 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 /*banner*/
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    width: 100%;
 }
 
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+.bg-no-overlay {
+    background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
 }
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-  background-color: black;
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  font-size: 40px;
-  padding: 10px;
-  width: 100%;
-  font-weight: bold;
-}
-
-
-
-.hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-  color: #fff;
-  border: 1px solid #fff;
-  margin: 50px 0 0 0;
-  background-color: transparent;
-}
-
 
 .hovereffect .rotate {
   -webkit-transform: rotate(-45deg);
